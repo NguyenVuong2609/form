@@ -10,7 +10,6 @@
             text-align: center;
             border: 1px solid black;
         }
-        
     </style>
 </head>
 <body>
@@ -64,17 +63,17 @@
     <table class="table1">
         <tr style="background-color: grey;">
             <th></th>
-            <th>Strongly Disagree</th>
-            <th>Disagree</th>
-            <th>Agree</th>
-            <th>Strongly Agree</th>
+            <th style="width: 80px;">Strongly Disagree</th>
+            <th style="width: 80px;">Disagree</th>
+            <th style="width: 80px;">Agree</th>
+            <th style="width: 80px;">Strongly Agree</th>
         </tr>
         <tr>
-            <td rowspan="2"><b>Our products are priced fairly.</b></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
+            <td rowspan="2" class="col1"><b>Our products are priced fairly.</b></td>
+            <td><input type="radio" name="1"></td>
+            <td><input type="radio" name="1"></td>
+            <td><input type="radio" name="1"></td>
+            <td><input type="radio" name="1"></td>
         </tr>
         <tr class="table1">
             <td>1</td>
@@ -83,11 +82,11 @@
             <td>4</td>
         </tr>
         <tr>
-            <td rowspan="2"><b>Our products are high quality.</b></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
+            <td rowspan="2" class="col1"><b>Our products are high quality.</b></td>
+            <td><input type="radio" name="2"></td>
+            <td><input type="radio" name="2"></td>
+            <td><input type="radio" name="2"></td>
+            <td><input type="radio" name="2"></td>
         </tr>
         <tr>
             <td>1</td>
@@ -96,11 +95,17 @@
             <td>4</td>
         </tr>
         <tr>
-            <td rowspan="2"><b>You would recommend our product to a friend or coworker.</b></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
-            <td><input type="radio"></td>
+            <td rowspan="2" class="col1"><b>You would recommend our product to a friend or coworker.</b></td>
+            <td><input type="radio" name="3"></td>
+            <td><input type="radio" name="3"></td>
+            <td><input type="radio" name="3"></td>
+            <td><input type="radio" name="3"></td>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
         </tr>
     </table> <br>
     <input type="button" name="submit" value="Submit">
